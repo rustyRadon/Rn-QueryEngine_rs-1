@@ -22,7 +22,7 @@ fn main() -> Result<(), String> {
 
     let filter = Arc::new(FilterWorker {
         input: scanner,
-        predicate: |age| age > 21,
+        predicate: |age| age > 19,
     });
 
     let pipeline = Arc::new(ProjectionWorker {
