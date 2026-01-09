@@ -1,5 +1,5 @@
 use std::fs::File;
-use std::io::{BufReader, ErrorKind, Read};
+use std::io::{BufReader, ErrorKind,};
 use std::sync::{Arc, Mutex};
 use byteorder::{LittleEndian, ReadBytesExt};
 use crate::common::{Column, RecordBatch};
